@@ -1,0 +1,12 @@
+from django.db import models
+from django_mysql.models import JSONField
+
+# Create your models here.
+#class Writings(models.Model):
+class Writings(models.Model):
+    title = models.TextField()
+    body = models.TextField()
+    category = models.TextField()
+    administration = models.CharField(max_length=100)
+    legislature = models.CharField(max_length=100)
+    keywords = JSONField()
