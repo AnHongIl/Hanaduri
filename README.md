@@ -3,7 +3,7 @@
 Software Maestro 9th
 
 
-DeepRecommendations_final.ipynb : 딥러닝을 위한 정치인 추천 프로그램
+DeepRecommendations_final.ipynb : 딥러닝을 위한 정치인 추천 프로그램 학
 	
   
 crwaler_politic.py : 딥러닝 Training set을 위한 크롤러
